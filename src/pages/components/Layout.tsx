@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 
 import Head from "next/head";
 
-export default function Layout({children}): JSX.Element {
+export default function Layout({children}) {
   return (
     <>
       <Head>
@@ -11,7 +11,7 @@ export default function Layout({children}): JSX.Element {
         <title>PokeNext</title>
       </Head>
       <Navbar />
-      <main>{children}</main>
+      <main className="main-container">{children}</main>
       <Footer />
     </>
   );
