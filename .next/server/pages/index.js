@@ -1,45 +1,358 @@
 "use strict";
-/*
- * ATTENTION: An "eval-source-map" devtool has been used.
- * This devtool is neither made for production nor for readable output files.
- * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
- * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
- * or disable the default devtool with "devtool: false".
- * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
- */
 (() => {
 var exports = {};
-exports.id = "pages/index";
-exports.ids = ["pages/index"];
+exports.id = 405;
+exports.ids = [405];
 exports.modules = {
 
-/***/ "./pages/index.tsx":
-/*!*************************!*\
-  !*** ./pages/index.tsx ***!
-  \*************************/
+/***/ 175:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Home)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ \"next/head\");\n/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);\n\n\nfunction Home() {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_head__WEBPACK_IMPORTED_MODULE_1___default()), {\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"title\", {\n                    children: \"Homepage\"\n                }, void 0, false, {\n                    fileName: \"/home/mathues/projetos/pokenext/pages/index.tsx\",\n                    lineNumber: 7,\n                    columnNumber: 9\n                }, this)\n            }, void 0, false, {\n                fileName: \"/home/mathues/projetos/pokenext/pages/index.tsx\",\n                lineNumber: 6,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h1\", {\n                children: \"Ol\\xe1, Matheus\"\n            }, void 0, false, {\n                fileName: \"/home/mathues/projetos/pokenext/pages/index.tsx\",\n                lineNumber: 9,\n                columnNumber: 7\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"/home/mathues/projetos/pokenext/pages/index.tsx\",\n        lineNumber: 5,\n        columnNumber: 5\n    }, this);\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9pbmRleC50c3guanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7QUFBQTtBQUE0QjtBQUViLFNBQVNDLElBQUksR0FBRztJQUM3QixxQkFDRSw4REFBQ0MsS0FBRzs7MEJBQ0YsOERBQUNGLGtEQUFJOzBCQUNILDRFQUFDRyxPQUFLOzhCQUFDLFVBQVE7Ozs7O3dCQUFROzs7OztvQkFDbEI7MEJBQ1AsOERBQUNDLElBQUU7MEJBQUMsaUJBQVk7Ozs7O29CQUFLOzs7Ozs7WUFDakIsQ0FDUDtDQUNGIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vcG9rZW5leHQvLi9wYWdlcy9pbmRleC50c3g/MDdmZiJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgSGVhZCBmcm9tICduZXh0L2hlYWQnXG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEhvbWUoKSB7XG4gIHJldHVybiAoXG4gICAgPGRpdj5cbiAgICAgIDxIZWFkPlxuICAgICAgICA8dGl0bGU+SG9tZXBhZ2U8L3RpdGxlPlxuICAgICAgPC9IZWFkPlxuICAgICAgPGgxPk9sw6EsIE1hdGhldXM8L2gxPlxuICAgIDwvZGl2PlxuICApXG59XG4iXSwibmFtZXMiOlsiSGVhZCIsIkhvbWUiLCJkaXYiLCJ0aXRsZSIsImgxIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./pages/index.tsx\n");
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": () => (/* binding */ Home),
+  "getStaticProps": () => (/* binding */ getStaticProps)
+});
+
+// EXTERNAL MODULE: external "react/jsx-runtime"
+var jsx_runtime_ = __webpack_require__(997);
+// EXTERNAL MODULE: ./node_modules/next/image.js
+var next_image = __webpack_require__(675);
+var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
+// EXTERNAL MODULE: external "styled-components"
+var external_styled_components_ = __webpack_require__(518);
+var external_styled_components_default = /*#__PURE__*/__webpack_require__.n(external_styled_components_);
+;// CONCATENATED MODULE: ./styles/HomeStyled.ts
+
+const HomeStyled = external_styled_components_default().div.withConfig({
+    componentId: "sc-6866d2ce-0"
+})`
+    max-width: 980px;
+    margin: 0 auto;
+
+  .title_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+  }
+
+  .title {
+    color: #e33d33;
+    text-align: center;
+    font-size: 3em;
+    margin-right: .4em;
+  }
+
+  .title span {
+    color: #333;
+  }
+
+  .card_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+`;
+/* harmony default export */ const styles_HomeStyled = (HomeStyled);
+
+// EXTERNAL MODULE: ./node_modules/next/link.js
+var next_link = __webpack_require__(664);
+var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
+;// CONCATENATED MODULE: ./styles/CardStyled.ts
+
+const CardStyled = external_styled_components_default().div.withConfig({
+    componentId: "sc-815804cc-0"
+})`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2em 1em;
+  margin-bottom: 2em;
+  width: 23%;
+  border-radius: 1em;
+  border: 2px solid #e33d33;
+  box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.5);
+  background-color: #333;
+  color: #fff;
+
+  p {
+    margin: 1em 0;
+    background-color: #e33d33;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h3 {
+    text-transform: capitalize;
+    margin-bottom: 1em;
+    font-size: 1.4em;
+  }
+
+  a {
+    text-decoration: none;
+    background-color: #fff;
+    color: #333;
+    padding: .7em 1.2em;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: .4s;
+  }
+
+  a:hover {
+    background-color: #e33d33;
+    color: #fff;
+  }
+`;
+/* harmony default export */ const styles_CardStyled = (CardStyled);
+
+;// CONCATENATED MODULE: ./components/Card.tsx
+
+
+
+
+function Card({ pokemon  }) {
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(styles_CardStyled, {
+        children: [
+            /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                src: `https://cdn.traction.one/pokedex/pokemon/${pokemon.id}.png`,
+                width: "120",
+                height: "120",
+                alt: pokemon.name
+            }),
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
+                children: [
+                    "#",
+                    pokemon.id
+                ]
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("h3", {
+                children: pokemon.name
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
+                href: `/pokemon/${pokemon.id}`,
+                children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
+                    children: "Detalhes"
+                })
+            })
+        ]
+    });
+};
+
+;// CONCATENATED MODULE: ./pages/index.tsx
+
+
+
+
+const getStaticProps = async (context)=>{
+    try {
+        const maxPokemons = 251;
+        const API = "https://pokeapi.co/api/v2/pokemon";
+        const res = await fetch(`${API}/?limit=${maxPokemons}`);
+        const data = await res.json();
+        data.results.map((item, index)=>{
+            item.id = index + 1;
+        });
+        return {
+            props: {
+                pokemons: data.results
+            }
+        };
+    } catch (e) {
+        console.error(e);
+    }
+};
+function Home({ pokemons  }) {
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(styles_HomeStyled, {
+        children: [
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                className: "title_container",
+                children: [
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("h1", {
+                        className: "title",
+                        children: [
+                            "Pok\xe9",
+                            /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                children: "Next"
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
+                        src: "/images/pokeball.png",
+                        width: "50",
+                        height: "50",
+                        alt: "pokeball"
+                    })
+                ]
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                className: "card_container",
+                children: pokemons.map((pokemon)=>/*#__PURE__*/ jsx_runtime_.jsx(Card, {
+                        pokemon: pokemon
+                    }, pokemon.id)
+                )
+            })
+        ]
+    });
+};
+
 
 /***/ }),
 
-/***/ "next/head":
-/*!****************************!*\
-  !*** external "next/head" ***!
-  \****************************/
+/***/ 562:
 /***/ ((module) => {
 
-module.exports = require("next/head");
+module.exports = require("next/dist/server/denormalize-page-path.js");
 
 /***/ }),
 
-/***/ "react/jsx-dev-runtime":
-/*!****************************************!*\
-  !*** external "react/jsx-dev-runtime" ***!
-  \****************************************/
+/***/ 957:
 /***/ ((module) => {
 
-module.exports = require("react/jsx-dev-runtime");
+module.exports = require("next/dist/shared/lib/head.js");
+
+/***/ }),
+
+/***/ 14:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/i18n/normalize-locale-path.js");
+
+/***/ }),
+
+/***/ 744:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/image-config-context.js");
+
+/***/ }),
+
+/***/ 843:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/image-config.js");
+
+/***/ }),
+
+/***/ 524:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/is-plain-object.js");
+
+/***/ }),
+
+/***/ 20:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/mitt.js");
+
+/***/ }),
+
+/***/ 964:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/router-context.js");
+
+/***/ }),
+
+/***/ 938:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/router/utils/format-url.js");
+
+/***/ }),
+
+/***/ 565:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/router/utils/get-asset-path-from-route.js");
+
+/***/ }),
+
+/***/ 365:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/router/utils/get-middleware-regex.js");
+
+/***/ }),
+
+/***/ 428:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/router/utils/is-dynamic.js");
+
+/***/ }),
+
+/***/ 292:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/router/utils/parse-relative-url.js");
+
+/***/ }),
+
+/***/ 979:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/router/utils/querystring.js");
+
+/***/ }),
+
+/***/ 52:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/router/utils/resolve-rewrites.js");
+
+/***/ }),
+
+/***/ 226:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/router/utils/route-matcher.js");
+
+/***/ }),
+
+/***/ 422:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/router/utils/route-regex.js");
+
+/***/ }),
+
+/***/ 232:
+/***/ ((module) => {
+
+module.exports = require("next/dist/shared/lib/utils.js");
+
+/***/ }),
+
+/***/ 689:
+/***/ ((module) => {
+
+module.exports = require("react");
+
+/***/ }),
+
+/***/ 997:
+/***/ ((module) => {
+
+module.exports = require("react/jsx-runtime");
+
+/***/ }),
+
+/***/ 518:
+/***/ ((module) => {
+
+module.exports = require("styled-components");
 
 /***/ })
 
@@ -50,7 +363,7 @@ module.exports = require("react/jsx-dev-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__("./pages/index.tsx"));
+var __webpack_exports__ = __webpack_require__.X(0, [686,675,676,664], () => (__webpack_exec__(175)));
 module.exports = __webpack_exports__;
 
 })();
