@@ -35,7 +35,7 @@ export default function Home({ pokemons }) {
   return (
     <HomeStyled>
       <div className="title_container">
-        <h1 className="title">Poke<span>Next</span></h1>
+        <h1 className="title">Poké<span>Next</span></h1>
         <Image src="/images/pokeball.png" width="50" height="50" alt="pokeball"/>
       </div>
       <div className="card_container">

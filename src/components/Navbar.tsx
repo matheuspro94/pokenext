@@ -9,7 +9,7 @@ export default function Navbar() {
       <div className="container">
         <div className="logo">
           <Image src='/images/pokeball.png' width="30" height="30" alt="pokeball" />
-          <h1>PokeNext</h1>
+          <h1>PokéNext</h1>
         </div>
         <ul className="link_items">
           <li>
