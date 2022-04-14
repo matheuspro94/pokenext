@@ -1,1 +1,0 @@
-{"c":["pages/pokemon/[pokemonId]","webpack"],"r":["pages/index"],"m":["./components/Card.tsx","./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fmathues%2Fprojetos%2Fpokenext%2Fsrc%2Fpages%2Findex.tsx!","./pages/index.tsx","./styles/CardStyled.ts","./styles/HomeStyled.ts"]}
