@@ -1,6 +1,9 @@
 import styled from "styled-components"
 
 const HomeStyled = styled.div`
+    max-width: 980px;
+    margin: 0 auto;
+
   .title_container {
     display: flex;
     justify-content: center;

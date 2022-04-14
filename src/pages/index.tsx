@@ -2,7 +2,7 @@ import { GetStaticProps } from 'next';
 import Image from 'next/image';
 
 import HomeStyled from '../styles/HomeStyled';
-import Card from './components/Card';
+import Card from '../components/Card';
 
 export interface pokemon {
   id: number,
